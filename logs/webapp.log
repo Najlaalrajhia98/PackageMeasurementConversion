@@ -3856,3 +3856,79 @@ java.lang.IllegalArgumentException: Invalid character found in the request targe
 2023-05-18 10:15:56.835 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
 2023-05-18 10:15:56.836 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
 2023-05-18 10:15:56.837 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:35.360 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.361 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:35.371 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.372 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:35.374 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.377 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.377 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:35.379 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.379 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:35.382 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.382 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:35.385 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.387 INFO  P.a.S.MeasurementConverterService - Processed the Values and Converted to Numeric Values successfully 
+2023-05-18 10:57:35.388 INFO  P.a.S.MeasurementConverterService - All Packages added to the Result List successfully  
+2023-05-18 10:57:44.781 INFO  P.api.ApiApplication - Starting ApiApplication using Java 19.0.1 with PID 16888 (C:\Users\LAP-7\Documents\Evaluation\api\target\classes started by LAP-7 in C:\Users\LAP-7\Documents\Evaluation\api)
+2023-05-18 10:57:44.784 INFO  P.api.ApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-18 10:57:46.085 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-18 10:57:46.094 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:57:46.096 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-18 10:57:46.096 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-18 10:57:46.199 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-18 10:57:46.199 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1339 ms
+2023-05-18 10:57:46.600 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:57:46.604 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-05-18 10:57:46.607 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:57:46.608 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-18 10:57:46.615 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:57:46.616 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:57:46.622 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-18 10:57:46.640 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-05-18 10:58:19.408 INFO  P.api.ApiApplication - Starting ApiApplication using Java 19.0.1 with PID 1860 (C:\Users\LAP-7\Documents\Evaluation\api\target\classes started by LAP-7 in C:\Users\LAP-7\Documents\Evaluation\api)
+2023-05-18 10:58:19.410 INFO  P.api.ApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-18 10:58:20.638 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-18 10:58:20.646 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:58:20.647 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-18 10:58:20.647 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-18 10:58:20.753 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-18 10:58:20.753 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1275 ms
+2023-05-18 10:58:21.122 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:58:21.128 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-05-18 10:58:21.132 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:58:21.132 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-18 10:58:21.144 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:58:21.145 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-18 10:58:21.157 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-18 10:58:21.183 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
